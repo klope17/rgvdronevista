@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGV DroneVista | NDVI Drone Scanning Starting at $7/acre</title>
+  <meta name="description" content="Multispectral NDVI drone scanning for South Texas farmers. Color map and PDF report in 48 hours. Starting at $7/acre, no contracts. Serving the Rio Grande Valley.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://klope17.github.io/rgvdronevista/">
+
+  <meta property="og:title" content="RGV DroneVista | NDVI Drone Scanning">
+  <meta property="og:description" content="See every stressed zone in your field. Color NDVI map and PDF report in 48 hours. Starting at $7/acre, no contracts.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://klope17.github.io/rgvdronevista/">
+  <meta property="og:image" content="https://klope17.github.io/rgvdronevista/assets/after.webp">
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src https://formspree.io; form-action https://formspree.io;">
+
+  <link rel="stylesheet" href="assets/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "name": "RGV DroneVista",
+        "telephone": "(956) 332-3659",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Edinburg",
+          "addressRegion": "TX",
+          "addressCountry": "US"
+        },
+        "areaServed": "Rio Grande Valley, TX",
+        "priceRange": "Starting at $7/acre",
+        "url": "https://klope17.github.io/rgvdronevista/",
+        "description": "Multispectral NDVI drone scanning for South Texas farmers. Color map and PDF report in 48 hours.",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Drone Scanning Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "NDVI Drone Scanning",
+                "description": "Multispectral drone scan with color NDVI map, shapefile, and annotated PDF report."
+              },
+              "price": "7",
+              "priceCurrency": "USD"
+            }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is NDVI drone scanning?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "NDVI stands for Normalized Difference Vegetation Index. A multispectral drone captures light your eye cannot see and turns it into a color map of your field. Green zones are healthy. Yellow and red zones are stressed, dry, or diseased. Catching a problem two to three weeks early can save thousands of dollars in a single season."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does drone scanning cost in South Texas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "RGV DroneVista charges starting at $7 per acre with no contracts and no hidden fees. Most fields in the Rio Grande Valley come out between $150 and $700 for a single scan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to get my NDVI map?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We deliver your color NDVI map and PDF report within 48 hours of the flight. Most jobs are done faster."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will my crop insurance adjuster accept drone NDVI data?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Our reports are produced by a third-party FAA Part 107 licensed operator using calibrated multispectral sensors. The NDVI data and georeferenced maps are in standard formats that adjusters use to evaluate crop loss claims."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to be present when you fly my field?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. We just need your field location, contact information, and permission to fly. We handle everything else and send your report when it is ready."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="/">RGV DroneVista</a>
+    <div class="nav-right">
+      <a class="nav-phone" href="tel:+19563323659" data-i18n="nav_call">(956) 332-3659</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-left">
+        <div class="hero-text">
+          <h1 data-i18n="hero_h1">See every stressed zone in your field before it costs you.</h1>
+          <p class="hero-sub" data-i18n="hero_sub">Multispectral NDVI drone scans for South Texas farmers. Color map and PDF report in 48 hours. Starting at $7/acre, no contracts.</p>
+          <a class="hero-cta-phone" href="tel:+19563323659" data-i18n="hero_phone">Call or text: (956) 332-3659</a>
+        </div>
+
+        <div class="compare-wrap">
+          <div class="compare-labels">
+            <span data-i18n="compare_before">Before</span>
+            <span data-i18n="compare_after">After</span>
+          </div>
+          <div class="compare-slider" id="compareSlider">
+            <img class="compare-img compare-after" src="assets/after.webp" alt="NDVI scan showing vegetation stress zones in a South Texas field" loading="lazy" draggable="false">
+            <img class="compare-img compare-before" src="assets/before.webp" alt="RGB aerial photo of South Texas field" loading="lazy" draggable="false">
+            <div class="compare-handle" id="compareHandle">
+              <div class="handle-grip">&#9664; &#9654;</div>
+            </div>
+          </div>
+          <div class="compare-stacked">
+            <div>
+              <span class="stack-label" data-i18n="compare_before">Before</span>
+              <img src="assets/before.webp" alt="RGB aerial photo of South Texas field" loading="lazy">
+            </div>
+            <div>
+              <span class="stack-label" data-i18n="compare_after">After</span>
+              <img src="assets/after.webp" alt="NDVI scan showing vegetation stress zones" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-form">
+        <h2 data-i18n="form_heading">Get a Free Quote</h2>
+        <form id="quoteForm" novalidate>
+          <div class="field-group">
+            <label for="f-name">
+              <span data-i18n="form_name">Full Name</span><span class="req" aria-hidden="true">*</span>
+            </label>
+            <input type="text" id="f-name" name="name" required data-i18n-placeholder="form_name_ph" placeholder="John Doe">
+          </div>
+          <div class="field-group">
+            <label for="f-phone">
+              <span data-i18n="form_phone">Phone Number</span><span class="req" aria-hidden="true">*</span>
+            </label>
+            <input type="tel" id="f-phone" name="phone" required placeholder="(000) 000-0000" inputmode="numeric">
+          </div>
+          <div class="field-group">
+            <label for="f-acres">
+              <span data-i18n="form_acres">Total Acres</span><span class="req" aria-hidden="true">*</span>
+            </label>
+            <input type="number" id="f-acres" name="acreage" min="1" required data-i18n-placeholder="form_acres_ph" placeholder="150">
+          </div>
+          <div class="field-group">
+            <label for="f-crop" data-i18n="form_crop">Crop Type</label>
+            <select id="f-crop" name="crop_type">
+              <option value="" data-i18n="form_crop_default">Select crop type</option>
+              <option value="Dryland row crops" data-i18n="form_crop_dry">Dryland row crops</option>
+              <option value="Irrigated crops" data-i18n="form_crop_irr">Irrigated crops</option>
+              <option value="Pasture / rangeland" data-i18n="form_crop_pas">Pasture / rangeland</option>
+              <option value="Other" data-i18n="form_crop_other">Other</option>
+            </select>
+          </div>
+          <div class="field-group">
+            <label for="f-time" data-i18n="form_time">Best time to call</label>
+            <select id="f-time" name="best_time_to_call">
+              <option value="" data-i18n="form_time_default">Select a time</option>
+              <option value="Morning" data-i18n="form_time_am">Morning (7am to noon)</option>
+              <option value="Afternoon" data-i18n="form_time_pm">Afternoon (noon to 5pm)</option>
+              <option value="Evening" data-i18n="form_time_eve">Evening (5pm to 8pm)</option>
+              <option value="Anytime" data-i18n="form_time_any">Anytime</option>
+            </select>
+          </div>
+          <button type="submit" id="submitBtn" data-i18n="form_submit">Get My Free Quote</button>
+          <div id="formMsg" class="form-msg" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+
+    </section>
+
+    <section class="steps">
+      <h2 data-i18n="steps_h2">How it works</h2>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-num">1</div>
+          <p data-i18n="step1">You tell us your field location and acreage. We schedule a flight around the weather and your timeline.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <p data-i18n="step2">We fly your field with our DJI Mavic 3 Multispectral and RTK module. The whole scan takes about an hour per 100 acres.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <p data-i18n="step3">You get a color NDVI map, a shapefile, and an annotated PDF report within 48 hours. That is it.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="deliv-pricing">
+      <h2 data-i18n="deliv_h2">What You Get</h2>
+      <p class="deliv-value" data-i18n="deliv_value">Catching a pest outbreak or disease pressure two to three weeks early can save thousands of dollars in a single season. Farmers who scan get higher yields by treating only the zones that actually need it.</p>
+      <div class="deliv-price-grid">
+        <ul class="deliv-list">
+          <li data-i18n="deliv1">Color NDVI map showing healthy, stressed, and dry zones</li>
+          <li data-i18n="deliv2">Shapefile for use in precision ag software</li>
+          <li data-i18n="deliv3">Annotated PDF report with zone-by-zone notes</li>
+          <li data-i18n="deliv4">Third-party documentation for crop insurance claims</li>
+          <li data-i18n="deliv5">FAA Part 107 certified flight log on request</li>
+        </ul>
+        <div class="price-box">
+          <div class="price-main">$7<span>/acre</span></div>
+          <ul class="price-list">
+            <li data-i18n="price1">No contracts</li>
+            <li data-i18n="price2">No hidden fees</li>
+            <li data-i18n="price3">Delivered in 48 hours</li>
+            <li data-i18n="price4">One price, all crops</li>
+          </ul>
+          <p class="price-note" data-i18n="price_note">Starting at $7/acre · No contracts · 48 hours</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <h2 data-i18n="faq_h2">Common questions</h2>
+      <dl class="faq-list">
+        <dt data-i18n="q1">What is NDVI drone scanning?</dt>
+        <dd data-i18n="a1">NDVI stands for Normalized Difference Vegetation Index. Our drone captures light your eye cannot see and turns it into a color map of your field. Green zones are healthy. Yellow and red zones are stressed, dry, or diseased. Catching a problem two to three weeks early can save thousands of dollars in a single season.</dd>
+
+        <dt data-i18n="q2">How much does it cost?</dt>
+        <dd data-i18n="a2">We charge starting at $7 per acre. No contracts, no hidden fees. Most fields in the Rio Grande Valley come out between $150 and $700 for a single scan.</dd>
+
+        <dt data-i18n="q3">How fast do I get my results?</dt>
+        <dd data-i18n="a3">We deliver your color NDVI map and PDF report within 48 hours of the flight. Most jobs are done faster than that.</dd>
+
+        <dt data-i18n="q4">Will my crop insurance adjuster accept this?</dt>
+        <dd data-i18n="a4">Yes. Our reports come from a third-party FAA Part 107 licensed operator using calibrated multispectral sensors. The NDVI data and georeferenced maps are in the standard formats adjusters use for crop loss claims.</dd>
+
+        <dt data-i18n="q5">Do I need to be there when you fly?</dt>
+        <dd data-i18n="a5">No. We just need the field location, your contact info, and permission to fly. We take care of everything and send your report when it is done.</dd>
+
+        <dt data-i18n="q6">What crops do you scan?</dt>
+        <dd data-i18n="a6">We scan dryland row crops, irrigated fields, and pasture or rangeland. Sorghum, cotton, small grains, onions, sugarcane, native pasture. If it grows in South Texas, we can scan it.</dd>
+      </dl>
+    </section>
+
+    <section class="trust">
+      <p class="trust-text" data-i18n="trust_text">FAA Part 107 Licensed · DJI Mavic 3 Multispectral · RTK Accuracy 2 to 5 cm · Rio Grande Valley, TX</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>RGV DroneVista &bull; Edinburg, TX &bull; <a href="tel:+19563323659">(956) 332-3659</a></p>
+    <p>
+      <a href="privacy-policy.html" data-i18n="footer_privacy">Privacy Policy</a>
+      &bull;
+      <a href="terms.html" data-i18n="footer_terms">Terms of Service</a>
+    </p>
+    <p class="footer-copy">&copy; 2025 RGV DroneVista</p>
+  </footer>
+
+  <script src="assets/main.js" defer></script>
+</body>
+</html>

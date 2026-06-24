@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://klope17.github.io/rgvdronevista/sitemap.xml
